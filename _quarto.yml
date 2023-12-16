@@ -1,21 +1,23 @@
-
 project:
   type: website
   output-dir: docs
-  
+
 website:
-  title: "Oshintiwari.github.io"
+  title: "Oshin Tiwari"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+   background: primary
+   left:
+     - href: index.qmd
+       text: Home
+     - resume.qmd
+     - project.qmd
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: Spacelab
+      dark: solar
     css: styles.css
-    toc: true
 
-#editor: visual
+editor: visual
 
